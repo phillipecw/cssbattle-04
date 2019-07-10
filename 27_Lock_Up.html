@@ -1,0 +1,30 @@
+<p>
+    <style>
+        * {
+            background: #aa445f;
+            margin: 0
+        }
+
+        p {
+            border-radius: 50%;
+            width: 80;
+            height: 80;
+            margin: 110 160;
+            box-shadow: 0 0 0 32q#f7ec7d, 
+                        0 0 0 64q#aa445f, 
+                        0 0 0 300px#e38f66
+        }
+
+        p:before,
+        p:after {
+            content: '';
+            padding: 45;
+            background: #aa445f;
+            position: fixed;
+            border-radius: 90q 0 0;
+            margin: -50
+        }
+
+        p:after {
+            margin: 40;
+            transform: scale(-1)
